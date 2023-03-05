@@ -37,9 +37,8 @@ header nav ul{
 }
 
 .hero {
-    display: flex;
-    flex-direction: row;
-    /*width: 100%;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 } 
 
 .bkg {
@@ -101,9 +100,8 @@ section h2 {
 .catalogo__container {
     background-color: #aafffa;
     padding: 15px 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     
 }
 
