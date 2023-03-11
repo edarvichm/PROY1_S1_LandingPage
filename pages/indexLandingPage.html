@@ -30,65 +30,92 @@
     <main>
         <section class="container-fluid">
             <div class="row">
-                <div class="col-6 text-center">
-                    <h1 class="display-1">DeMariaPortal</h1>
-                    <h2 class="display-6">La mejor tienda de productos usados</h2>
-                    <article class="lead">Puedes comprar articulos nuevos, usados o vender tus articulos nuevos o usados</article>
+                <div class="col-12 col-xl-6 text-center banner-color">
+                    <h1 class="display-1 color-banner1">DeMariaPortal</h1>
+                    <h2 class="h3 color-banner2">La mejor tienda de productos nuevos y usados</h2>
+                    <article class="h5">Puedes comprar articulos nuevos, usados o vender tus articulos</article>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-xl-6">
                     <img src="../assets/img/logo.jpg" 
-                    class="img-thumbnail rounded mx-auto d-block" alt="imagen">
+                    class="img-thumbnail rounded mx-auto d-block m-3" alt="imagen">
                 </div>
             </div>
         </section>
         <section class="catalogo">
-            <h2>Productos Destacados</h2>
-            <div class="catalogo__container">
+            <h2 class="h1">Productos Destacados</h2>
+            <article class="catalogo__container">
                 <!-- <div class="arrows">
                     <i>I</i>
                     <i>D</i>
                 </div> -->
-                <div class="catalogo__item">
-                    <img src="#imagen" alt="imagen">
-                    <h3>Producto 1</h3>
-                    <p>Descripción del producto</p>
-                    <button>Comprar</button>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Producto 1</h5>
+                      <p class="card-text">Descripción del producto</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-                <div class="catalogo__item">
-                    <img src="#imagen" alt="imagen">
-                    <h3>Producto 2</h3>
-                    <p>Descripción del producto</p>
-                    <button>Comprar</button>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Producto 2</h5>
+                      <p class="card-text">Descripción del producto</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-                <div class="catalogo__item">
-                    <img src="#imagen" alt="imagen">
-                    <h3>Producto 3</h3>
-                    <p>Descripción del producto</p>
-                    <button>Comprar</button>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1585053736987-f817dc225fc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Producto 3</h5>
+                      <p class="card-text">Descripción del producto</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-                <div class="catalogo__item">
-                    <img src="#imagen" alt="imagen">
-                    <h3>Producto 4</h3>
-                    <p>Descripción del producto</p>
-                    <button>Comprar</button>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Producto 4</h5>
+                      <p class="card-text">Descripción del producto</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
+            </article>
         </section>
         <section class="vende">
-            <h2>Vende</h2>
-            <p>¿Querés vender tus productos en nuestro sitio?</p>
-            <form method="get">
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Apellido">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Celular">
-                <input type="submit"></input>
+            <h2 class="h1">Vende</h2>
+            <p class="h2">¿Querés vender tus productos en nuestro sitio?</p>
+            <form method="get" class="row g-3 mb-3">
+                <div class="col-auto">
+                <input class="form-control" type="text" placeholder="Nombre Producto">
+                <input class="form-control" type="text" placeholder="Descripción">
+                <input class="form-control" type="number" placeholder="Cantidad">
+                <input class="form-control" type="text" placeholder="Precio">
+                <div class="mb-3">
+                    <label for="formFile" class="form-label h5">Ingresa imagenes del producto</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                <input class="btn btn-primary mb-3" type="submit"></input>
+                </div>
             </form>
         </section>
         <section class="contacto">
-            <h2>Contacto</h2>
-            <p>¿Tenés alguna consulta?</p>
-            <button>Comprar</button>
+            
+            <h2 class="h1">Contacto</h2>
+            <p class="h4">¿Tenés alguna consulta?</p>
+            <form method="get" class="row mb-3">
+                <div class="col-auto">
+                <input class="form-control" ype="text" placeholder="Nombre">
+                <input class="form-control" ype="text" placeholder="Apellido">
+                <input class="form-control" ype="email" placeholder="Email">
+                <input class="form-control" ype="text" placeholder="Celular">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <input class="btn btn-primary mb-3" type="submit"></input>
+                </div>
+            </form>
         </section>
     </main>
 
