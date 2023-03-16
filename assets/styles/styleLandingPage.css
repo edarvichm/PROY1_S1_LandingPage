@@ -215,30 +215,3 @@ footer p {
     color: rgba(128, 128, 128, 0.800);
     /* border: 1px solid #000; */
 }
-
-@media (max-width: 1200px) {
-    nav{
-        justify-content: center;
-    }
-
-    /* header button{
-        display: block;
-    } */
-    /* .hero {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        width: 100%;
-    }  */
-
-    .catalogo__container {
-        padding: 15px 15px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap : 10px;
-    } 
-
-    
-}
