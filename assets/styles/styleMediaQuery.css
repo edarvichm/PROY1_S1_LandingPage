@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+    nav{
+        justify-content: center;
+        display: none;
+    }
+
+    .nav2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* background-color: #111827; */
+        padding: 16px 32px;
+        flex-direction: column;
+    }
+
+   /* .catalogo__container {
+        padding: 15px 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap : 10px;
+    }  */
+
+    
+}
+
+@media (min-width: 501px) {
+    nav{
+        display: flex;
+    }
+
+    .nav2{
+        display: none;
+    }
+}
