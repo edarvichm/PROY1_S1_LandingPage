@@ -14,14 +14,14 @@
         flex-direction: column;
     }
 
-   /* .catalogo__container {
+   .catalogo__container {
         padding: 15px 15px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         gap : 10px;
-    }  */
+    } 
 
     
 }
