@@ -14,15 +14,16 @@
         flex-direction: column;
     }
 
-   .catalogo__container {
+    /* .catalogo__container {
         padding: 15px 15px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         gap : 10px;
-    } 
+    }  */
 
+    
     
 }
 
@@ -34,4 +35,16 @@
     .nav2{
         display: none;
     }
+
+}
+
+@media (max-width: 1260px){
+    .catalogo__container {
+        padding: 15px 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap : 10px;
+    } 
 }
