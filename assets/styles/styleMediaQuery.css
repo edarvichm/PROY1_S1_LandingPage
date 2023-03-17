@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 523px) {
     nav{
         justify-content: center;
         display: none;
@@ -6,28 +6,18 @@
 
     .nav2 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        /* background-color: #111827; */
-        padding: 16px 32px;
-        flex-direction: column;
-    }
-
-    /* .catalogo__container {
-        padding: 15px 15px;
-        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap : 10px;
-    }  */
-
-    
-    
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+    }
 }
 
-@media (min-width: 501px) {
+@media (min-width: 523px) {
     nav{
         display: flex;
     }
