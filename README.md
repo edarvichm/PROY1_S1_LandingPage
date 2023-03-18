@@ -18,3 +18,5 @@ En resumen, este proyecto es un ejemplo de cómo se puede aplicar una variedad d
 Prototipo simple y de baja fidelidad para una página tipo landing page, que muestra el diseño básico y la disposición de la página. Utiliza etiquetas estándar HTML5 y se enfoca en la usabilidad y la claridad del contenido
 ![Prototipo](assets/img/LandingPagePrototipo.png)
 
+# URL
+Link de la página [URL](https://edarvichm.github.io/PROY1_S1_LandingPage/).
